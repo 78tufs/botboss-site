@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BotBoss: Your Complete AI Chatbot Business Kit</title>
+  <style>
+    :root {
+      --bg: #0b0f1a;
+      --card: #121826;
+      --text: #eaf0ff;
+      --muted: #9db0d9;
+      --accent: #6aa2ff;
+      --accent-2: #7cffc4;
+      --warn: #ffd866;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --radius: 18px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family: system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;background: radial-gradient(1200px 800px at 80% -10%,rgba(106,162,255,.25),transparent),radial-gradient(1000px 700px at -10% 20%,rgba(124,255,196,.2),transparent),var(--bg);color:var(--text);line-height:1.5}
+    a{color:var(--accent)}
+    .wrap{max-width:980px;margin:0 auto;padding:28px}
+    .badge{display:inline-flex;gap:8px;align-items:center;background:rgba(106,162,255,.1);color:var(--accent);border:1px solid rgba(106,162,255,.25);padding:6px 12px;border-radius:999px;font-weight:600;font-size:12px}
+    .hero{display:grid;gap:20px;align-items:center;margin-top:14px}
+    .h1{font-size:42px;line-height:1.1;margin:0;font-weight:800;letter-spacing:.2px}
+    .sub{font-size:18px;color:var(--muted);max-width:720px}
+    .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:14px}
+    .btn{appearance:none;border:none;cursor:pointer;border-radius:14px;padding:14px 20px;font-weight:700;box-shadow:var(--shadow);transition:.2s transform,.2s box-shadow}
+    .btn:hover{transform:translateY(-2px);box-shadow:0 16px 40px rgba(0,0,0,.45)}
+    .btn-primary{background:linear-gradient(135deg,var(--accent),#5b86ff);color:white}
+    .btn-ghost{background:rgba(255,255,255,.06);color:var(--text);border:1px solid rgba(255,255,255,.12)}
+    .grid{display:grid;gap:18px}
+    @media(min-width:800px){.hero{grid-template-columns:1.2fr .8fr}.h1{font-size:56px}.grid-3{grid-template-columns:repeat(3,1fr)}.grid-2{grid-template-columns:repeat(2,1fr)}}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.08);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow)}
+    .kicker{color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.12em;font-size:12px;margin-bottom:6px}
+    .list{padding:0;margin:10px 0 0;list-style:none}
+    .list li{display:flex;gap:10px;align-items:flex-start;margin:10px 0}
+    .tick{width:20px;height:20px;border-radius:6px;background:linear-gradient(135deg,var(--accent-2),#4df7a3);display:inline-flex;align-items:center;justify-content:center;color:#072e22;font-weight:900;flex:0 0 20px}
+    .price{font-size:44px;font-weight:900}
+    .strike{color:var(--muted);text-decoration:line-through;font-weight:600;margin-left:8px;font-size:20px}
+    .guarantee{display:flex;gap:14px;align-items:flex-start;background:rgba(124,255,196,.06);border:1px dashed rgba(124,255,196,.35);padding:14px;border-radius:14px}
+    .footer{opacity:.7;font-size:12px;margin-top:28px}
+    .tag{display:inline-block;background:rgba(255,216,102,.12);color:var(--warn);border:1px solid rgba(255,216,102,.35);padding:6px 10px;border-radius:999px;font-weight:700;font-size:12px}
+    .emoji{filter: drop-shadow(0 6px 16px rgba(0,0,0,.35))}
+    .hero-card{backdrop-filter: blur(3px)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <div>
+        <span class="badge">🚀 Launch in days — not months</span>
+        <h1 class="h1">BotBoss: Your Complete AI Chatbot Business Kit</h1>
+        <p class="sub">Build, launch & profit from chatbots in 30 days — even if you’re a beginner. Replace repetitive DMs, capture leads 24/7, and unlock upsells with plug‑and‑play templates.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="#buy">Get Instant Access — $57</a>
+          <a class="btn btn-ghost" href="#whats-inside">See What’s Inside</a>
+        </div>
+        <div style="margin-top:10px"><span class="tag">60‑Day Money‑Back Guarantee</span></div>
+      </div>
+      <div class="card hero-card">
+        <div class="kicker">What’s included</div>
+        <ul class="list">
+          <li><span class="tick">✓</span><strong>100 Plug‑and‑Play Q&As</strong> to answer FAQs immediately</li>
+          <li><span class="tick">✓</span><strong>Business Worksheets</strong> to plan flows & track growth</li>
+          <li><span class="tick">✓</span><strong>Case Studies</strong> from cafés, salons, eCom, coaches & more</li>
+          <li><span class="tick">✓</span><strong>Printable Checklists</strong> for setup, connection & maintenance</li>
+          <li><span class="tick">✓</span><strong>Promo Scripts Pack</strong> (flash sales, holidays, upsells)</li>
+          <li><span class="tick">✓</span><strong>Beginner’s eBook</strong> + 30‑day action plan</li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="grid grid-3" style="margin-top:28px">
+      <div class="card">
+        <div class="kicker">Save time</div>
+        Stop replying to the same questions. Let your bot handle FAQs, bookings & order status 24/7.
+      </div>
+      <div class="card">
+        <div class="kicker">Grow revenue</div>
+        Built‑in upsells, cross‑sells & cart recovery scripts increase average order value.
+      </div>
+      <div class="card">
+        <div class="kicker">Launch fast</div>
+        Copy, paste, publish. Go live in hours with ready‑made templates and checklists.
+      </div>
+    </section>
+
+    <section id="whats-inside" style="margin-top:28px" class="grid grid-2">
+      <div class="card">
+        <h3 style="margin:0 0 6px">Inside the Kit</h3>
+        <ul class="list">
+          <li><span class="tick">✓</span> 100 Chatbot Q&As (general business, payments, bookings, refunds, promos, more)</li>
+          <li><span class="tick">✓</span> Worksheets (setup, FAQ builder, conversation planner, growth tracker)</li>
+          <li><span class="tick">✓</span> Case Studies (café, eCom, salon, consultant, gym, real estate…)</li>
+          <li><span class="tick">✓</span> Printable Checklists (setup → growth → maintenance)</li>
+          <li><span class="tick">✓</span> Promo Scripts (flash sales, holiday deals, upsell prompts, lead magnets)</li>
+          <li><span class="tick">✓</span> Beginner’s eBook (A‑to‑Z guide + 30‑day plan)</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 style="margin:0 0 6px">Perfect for</h3>
+        <ul class="list">
+          <li><span class="tick">✓</span> Small businesses & local services</li>
+          <li><span class="tick">✓</span> eCommerce & course creators</li>
+          <li><span class="tick">✓</span> Freelancers starting a chatbot agency</li>
+          <li><span class="tick">✓</span> Coaches & consultants capturing leads 24/7</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="buy" class="card" style="margin-top:28px;text-align:center">
+      <div class="kicker">Special Launch Offer</div>
+      <div class="price">$57 <span class="strike">$97</span></div>
+      <p style="margin:6px 0 16px;color:var(--muted)">Instant digital access. One‑time payment. Use on unlimited projects you build.</p>
+      <a class="btn btn-primary" style="font-size:18px" href="https://www.clkbank.com/#!/checkout/vendor/ALIAS/item/1" target="_blank" rel="noopener">Checkout Securely</a>
+      <p style="margin-top:10px;font-size:12px;color:var(--muted)">Replace the link above with your ClickBank buy link once your product is approved.</p>
+      <div class="guarantee" style="margin-top:16px">
+        <div class="emoji">🛡️</div>
+        <div>
+          <strong>60‑Day Money‑Back Guarantee.</strong><br/>
+          Try BotBoss risk‑free. If you’re not thrilled, get a full refund via ClickBank within 60 days.
+        </div>
+      </div>
+    </section>
+
+    <section class="grid grid-2" style="margin-top:28px">
+      <div class="card">
+        <h3 style="margin:0 0 6px">FAQ</h3>
+        <p><strong>Do I need tech skills?</strong><br/>No. Copy, paste, publish. Works with WordPress, ClickFunnels, Shopify app embeds, or static hosting.</p>
+        <p><strong>Which platforms do these templates support?</strong><br/>Tidio, ManyChat, ChatGPT‑based bots, and most website chat widgets.</p>
+        <p><strong>Commercial use?</strong><br/>Yes — use the assets on unlimited client projects you deliver.</p>
+      </div>
+      <div class="card">
+        <h3 style="margin:0 0 6px">What happens after I buy?</h3>
+        <ol style="padding-left:18px;margin:0">
+          <li>Instant download link via ClickBank</li>
+          <li>Open the bundle & pick your templates</li>
+          <li>Launch your bot and start collecting leads/sales</li>
+        </ol>
+        <div style="margin-top:12px;font-size:12px;color:var(--muted)">Billing descriptor appears as <strong>CLKBANK*</strong> plus your product title, per ClickBank rules.</div>
+      </div>
+    </section>
+
+    <div class="footer">
+      © <span id="y"></span> BotBoss Kit. All rights reserved. • Need help? <a href="#" onclick="alert('Email: support@yourdomain.com')">Contact support</a>
+    </div>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
